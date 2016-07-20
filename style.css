@@ -74,39 +74,21 @@ hr {
     margin: 0 9%;
 }
 
-.tile {
-    position: relative;
-    height: 25em;
-}
-
 .left {
-    width: calc(50% - 3px);
+    position: relative;
+    height: 20em;
     float: left;
+    width: calc(50% - 3px);
 }
 
 .right {
+    position: relative;
+    height: 20em;
     margin-left: calc(50% + 3px);
     margin-top: 6px;
 }
 
-.t1 {
-    width: calc(33% - 3px);
-    float: left;
-}
-
-.t2 {
-    margin-left: calc(33% + 3px);
-    width: calc(33% - 3px);
-    margin-top: 6px;
-}
-
-.t3 {
-    margin-left: calc(66% + 3px);
-    width: calc(33% - 3px);
-    margin-top: 6px;
-}
-
-.row img,
+.row2 img,
 .overlay {
     position: absolute;
     top: 0;
@@ -135,4 +117,27 @@ hr {
 .left:hover .overlay,
 .right:hover .overlay {
     opacity: .8;
+}
+
+.row3 {
+    position: relative;
+    width: 100%;
+}
+
+.row3 img {
+    width: auto;
+    height: 100%;
+}
+
+.tile {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    background-color: red;
+}
+
+.tile img {
+    height: 100%;
+    width:100%;
 }
