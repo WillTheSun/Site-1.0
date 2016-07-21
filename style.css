@@ -76,14 +76,14 @@ hr {
 
 .left {
     position: relative;
-    height: 20em;
+    height: 23em;
     float: left;
     width: calc(50% - 3px);
 }
 
 .right {
     position: relative;
-    height: 20em;
+    height: 23em;
     margin-left: calc(50% + 3px);
     margin-top: 6px;
 }
@@ -115,7 +115,8 @@ hr {
 }
 
 .left:hover .overlay,
-.right:hover .overlay {
+.right:hover .overlay,
+.tile:hover .overlay {
     opacity: .8;
 }
 
@@ -132,8 +133,8 @@ hr {
 .tile {
     position: relative;
     display: inline-block;
-    width: 400px;
-    height: 250px;
+    width: 340px;
+    height: 230px;
 }
 
 .tile img {
